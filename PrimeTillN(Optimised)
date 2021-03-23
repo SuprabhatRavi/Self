@@ -13,7 +13,7 @@ int main()
     cout<<"enter a number: ";
     cin>>n;
     vector<int> isPrime(n+1,1);
-    for(int i=2; i< isPrime.size();i++)
+    for(int i=2; i*i<= isPrime.size();i++)
     {
         if(isPrime[i]==1)
         {
