@@ -20,8 +20,9 @@ void TowerOfHanoi(int n,char a, char b,char c)
 
 
 int main() {
-	int n=2;
+	int n=5;
 	char a='A',b='B',c='C';
+	cout<<"The tower of "<<"height "<<n<<" will take "<<pow(2,n)-1<<" steps\n\n";
 	TowerOfHanoi(n,a,b,c);
 	return 0;
 }
