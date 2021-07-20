@@ -1,4 +1,4 @@
-//Hoare's algo is about 3x faster than Lomuto algo
+//Hoare's algo is about 3x faster than Lomuto algo because it does 3x fewer swaps as compared to Lomuto
 /*
 Self Note: You can't switch the statement if(l>=h) return h;(line 28) by while (l<h) and return h(line 18) after the while loop ends because when it reaches 
 the middle where l<h it'll enter the loop and since it's do while the l will land on an elment which is greater than the pivot and h will land on an element 
