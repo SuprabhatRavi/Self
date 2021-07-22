@@ -27,7 +27,7 @@ int main() {
 	    
 	    if(vect[j].second >  arr[i].first)
 	    {
-	        pair<int,int> p(vect[j].first,arr[i].second);
+	        pair<int,int> p(vect[j].first,max(vect[j].second,arr[i].second));
 	        vect[j]=p;i++;
 	    }
 	    else 
