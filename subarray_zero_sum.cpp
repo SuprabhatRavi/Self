@@ -13,8 +13,12 @@ int main(){
         if(s.find(psum)!= s.end()) {
             cout<<"Subarray with sum 0 exists";
             return 0;
-        }       
+        } 
+        if(psum==0) {
+            cout<<"Subarray with sum 0 exists";
+            return 0;
+        }            
     }
-    cout<<"Subarray with sum 0 exists";
+    cout<<"Subarray with sum 0 does not exists";
     return 0;
 }
