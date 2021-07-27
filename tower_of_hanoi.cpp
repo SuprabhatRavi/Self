@@ -16,9 +16,6 @@ void TowerOfHanoi(int n,char a, char b,char c)
     TowerOfHanoi(n-1,b,a,c);
 }
 
-
-
-
 int main() {
 	int n=5;
 	char a='A',b='B',c='C';
