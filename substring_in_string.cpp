@@ -28,7 +28,7 @@ int main() {
 using namespace std;
 
 bool fun(string str, string sub) {
-    if(str=="\0") {
+    if(str=="\0" && sub!="\0") {
         return 0;
     }
     if(sub=="\0") {
